@@ -14,7 +14,7 @@ type User = {
   password: string;
 };
 
-function createOrUpdateUser(initialValues: User) {
+function createOrUpdateUser({ email, name, surname, password }: User) {
   // Оновлення користувача
 }
 
